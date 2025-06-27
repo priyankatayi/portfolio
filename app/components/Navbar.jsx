@@ -25,7 +25,7 @@ function Navbar() {
         </a>
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50">
           <li><a className='font-Ovo' href="#top">Home</a></li>
-          <li><a className='font-Ovo' href="#aboutMe">About Me</a></li>
+          <li><a className='font-Ovo' href="#about">About Me</a></li>
           <li><a className='font-Ovo' href="#experience">Experience</a></li>
           <li><a className='font-Ovo' href="#education">Education</a></li>
           <li><a className='font-Ovo' href="#work">My Work</a></li>
@@ -47,7 +47,7 @@ function Navbar() {
             <Image className="w-5 cursor-pointer" src={assets.close_black} alt="" />
           </div>
           <li><a className='font-Ovo' onClick={onClose} href="#top">Home</a></li>
-          <li><a className='font-Ovo' onClick={onClose} href="#aboutMe">About Me</a></li>
+          <li><a className='font-Ovo' onClick={onClose} href="#about">About Me</a></li>
           <li><a className='font-Ovo' onClick={onClose} href="#experience">Experience</a></li>
           <li><a className='font-Ovo' onClick={onClose} href="#education">Education</a></li>
           <li><a className='font-Ovo' onClick={onClose} href="#work">My Work</a></li>
