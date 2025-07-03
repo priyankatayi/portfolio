@@ -28,7 +28,7 @@ function About({ isDarkMode }) {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <Image src={assets.user_image} alt="user" className="w-full rounded-3xl " />
+            <Image src={assets.user_image} alt="user" className="w-full rounded-3xl self-center" />
           </motion.div>
           <motion.div
             className="flex-1"
@@ -40,12 +40,11 @@ function About({ isDarkMode }) {
               I’m Priyanka Tayi, a passionate software developer with a Master’s degree in Computer
               Science from Georgia State University. After graduation, I worked at Capgemini for 8
               years, gaining valuable experience in various roles. Over the last 4 years, I have
-              focused on building scalable and responsive web applications. With expertise in modern
-              JavaScript frameworks, I specialize in developing component-based architectures,
-              optimizing performance, and integrating RESTful APIs within Agile teams. I am
-              dedicated to writing clean, maintainable code and creating intuitive, engaging user
-              experiences. I excel at collaborating cross-functionally to translate complex business
-              requirements into elegant, production-ready solutions.
+              worked on building scalable and responsive web applications using modern JavaScript
+              frameworks, I specialize in developing component-based architectures, optimizing
+              performance, and integrating RESTful APIs within Agile teams. I excel at collaborating
+              cross-functionally to translate complex business requirements into elegant,
+              production-ready solutions.
             </p>
             <motion.ul
               className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"

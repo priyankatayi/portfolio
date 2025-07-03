@@ -43,7 +43,10 @@ function Portfolio() {
           >
             <div
               className="h-56 bg-no-repeat bg-cover bg-center"
-              style={{ backgroundImage: `url(${project.bgImage})` }}
+              style={{
+                backgroundImage: `url(${project.bgImage})`,
+                backgroundPosition: 'center top',
+              }}
             />
 
             <div className="p-4 flex flex-col gap-2">

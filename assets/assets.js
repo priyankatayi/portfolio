@@ -87,7 +87,7 @@ export const projects = [
     description: 'My Portfolio',
     bgImage: '/work-3.png',
     codeUrl: 'https://github.com/priyankatayi/portfolio',
-    liveUrl: 'https://checklist-app.netlify.app/',
+    liveUrl: 'https://portfolio-eosin-xi.vercel.app/',
   },
   {
     description: 'Graduate Work',
