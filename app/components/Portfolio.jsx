@@ -50,7 +50,9 @@ function Portfolio() {
             />
 
             <div className="p-4 flex flex-col gap-2">
-              <p className="text-sm text-gray-800 dark:text-white">{project.description}</p>
+              <p className="text-sm text-center text-gray-800 dark:text-white">
+                {project.description}
+              </p>
 
               <div className="flex justify-between items-center mt-2">
                 <a
