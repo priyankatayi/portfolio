@@ -8,7 +8,7 @@ export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs,jsx}"],
     plugins: { js },
-    extends: ["js/recommended"],
+    extends: ['plugin:prettier/recommended'],
   },
   // Browser globals (for front-end code)
   {
@@ -25,5 +25,5 @@ export default defineConfig([
     },
   },
   // React config
-  pluginReact.configs.flat.recommended,
+  pluginReact.configs.flat.recommended, 
 ]);
