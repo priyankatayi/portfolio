@@ -61,14 +61,16 @@ function Portfolio() {
                 >
                   Demo
                 </a>
-                <a
-                  href={project.codeUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs px-3 py-1 rounded-full border border-gray-700 text-gray-700 hover:bg-gray-800 hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black transition"
-                >
-                  Github
-                </a>
+                {project.codeUrl && (
+                  <a
+                    href={project.codeUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs px-3 py-1 rounded-full border border-gray-700 text-gray-700 hover:bg-gray-800 hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black transition"
+                  >
+                    Github
+                  </a>
+                )}
               </div>
             </div>
           </motion.div>
