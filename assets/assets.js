@@ -90,6 +90,12 @@ export const projects = [
     liveUrl: 'https://portfolio-eosin-xi.vercel.app/',
   },
   {
+    description: 'SmartTalk AI',
+    bgImage: '/smarttalk-ai.png',
+    codeUrl: 'https://github.com/priyankatayi/smarttalk-ai',
+    liveUrl: 'https://smarttalk-ai-weld.vercel.app',
+  },
+  {
     description: 'Graduate Work',
     bgImage: '/work-4.png',
     liveUrl: 'https://sites.gsu.edu/innovation/2016/03/04/geo-tagging-underground-atlanta/',
